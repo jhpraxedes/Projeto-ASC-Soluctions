@@ -1,0 +1,12 @@
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\Faculdade.Business.dll.config
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\Faculdade.Business.dll
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\Faculdade.Business.pdb
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\EntityFramework.dll
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\Faculdade.Model.dll
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\Faculdade.Model.pdb
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\EntityFramework.xml
+C:\ProjetosWeb\Faculdade\Faculdade.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\ProjetosWeb\Faculdade\Faculdade.Business\obj\Debug\Faculdade.Business.csprojResolveAssemblyReference.cache
+C:\ProjetosWeb\Faculdade\Faculdade.Business\obj\Debug\Faculdade.Business.dll
+C:\ProjetosWeb\Faculdade\Faculdade.Business\obj\Debug\Faculdade.Business.pdb

@@ -1,0 +1,36 @@
+﻿
+@model IEnumerable<Faculdade.Model.ObjectValue.MediaAluno>
+@{
+    ViewBag.Title = "Faculdade XYZ";
+
+    List<Faculdade.Model.ObjectValue.MediaAluno> alunosMedia = ViewBag.Media as List<Faculdade.Model.ObjectValue.MediaAluno>;
+}
+
+<h2>Resultado das Turmas</h2>
+
+
+<div class="row">
+    <div class="col-xs-2"><b>Nome da Turma</b></div>
+    <div class="col-xs-2"><b>Matrícula Aluno</b></div>
+    <div class="col-xs-2"><b>Nome do Aluno</b></div>
+    <div class="col-xs-2"><b>Média Ponderada</b></div>
+    <div class="col-xs-2"><b>Resultado</b></div>
+</div>
+@foreach (Faculdade.Model.ObjectValue.MediaAluno mediaAluno in alunosMedia)
+{
+    <div class="row">
+        <div class="col-xs-2">@mediaAluno.nomeTurma</div>
+        <div class="col-xs-2">@mediaAluno.matricula</div>
+        <div class="col-xs-2">@mediaAluno.nomeAluno</div>
+        <div class="col-xs-2">@mediaAluno.mediaAluno.ToString("N2")</div>
+        @{ var resultado = " "; }
+        @if (mediaAluno.mediaAluno > 6) { resultado = "Aprovado"; }
+        @if (mediaAluno.mediaAluno >= 4 && mediaAluno.mediaAluno <= 6) { resultado = "Fazer Prova Final"; }
+        @if (mediaAluno.mediaAluno < 4) { resultado = "Reprovado"; }
+
+        <div class="col-xs-2">
+            @resultado
+        </div>
+    </div>
+}
+
